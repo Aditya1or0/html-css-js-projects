@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="sidebar">
+      <ul>
+        <li>
+          <span class="logo">StylishCoder</span>
+          <button onclick="toggleSidebar()" id="toggle-btn">
+            <span class="material-symbols-outlined code-img svg">
+              keyboard_double_arrow_left
+            </span>
+          </button>
+        </li>
+        <li class="active">
+          <a href="index.html">
+            <span class="material-symbols-outlined svg"> Home</span
+            ><span class="span-text home-img">Home</span></a
+          >
+        </li>
+        <li>
+          <a href="dashboard.html">
+            <span class="material-symbols-outlined svg"> grid_view </span
+            ><span class="span-text">Dashboard</span></a
+          >
+        </li>
+        <li>
+          <button onclick="toggleSubMenu(this)" class="dropdown-btn ddbtn">
+            <span class="material-symbols-outlined svg">
+              create_new_folder
+            </span>
+            <span class="span-text">Create</span>
+            <span class="material-symbols-outlined svg"> arrow_drop_down </span>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li><a href="#">Folder</a></li>
+              <li><a href="#">Document</a></li>
+              <li><a href="#">Project</a></li>
+            </div>
+          </ul>
+        </li>
+
+        <li>
+          <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+            <span class="material-symbols-outlined svg"> checklist </span>
+            <span class="span-text">Todo-Lists</span>
+            <span class="material-symbols-outlined svg"> arrow_drop_down </span>
+          </button>
+          <ul class="sub-menu">
+            <div>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Private</a></li>
+              <li><a href="#">Coding</a></li>
+              <li><a href="#">School</a></li>
+            </div>
+          </ul>
+        </li>
+
+        <li>
+          <a href="calender.html">
+            <span class="material-symbols-outlined svg"> calendar_month </span
+            ><span class="span-text">Calendar</span></a
+          >
+        </li>
+        <li>
+          <a href="profile.html"
+            ><span class="material-symbols-outlined svg"> account_circle </span
+            ><span class="span-text">Profile</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Hello World</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          quibusdam molestias consectetur repellendus tenetur ad atque. Iste
+          molestias beatae id, totam maxime laudantium, vero dolorum explicabo
+          facere dolores nostrum quas.
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello World</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          quibusdam molestias consectetur repellendus tenetur ad atque. Iste
+          molestias beatae id, totam maxime laudantium, vero dolorum explicabo
+          facere dolores nostrum quas.
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello World</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          quibusdam molestias consectetur repellendus tenetur ad atque. Iste
+          molestias beatae id, totam maxime laudantium, vero dolorum explicabo
+          facere dolores nostrum quas. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Odio ex inventore voluptatem tempore, beatae dolorem
+          velit saepe provident eius minus hic architecto commodi assumenda
+          quos. Voluptas necessitatibus recusandae nobis laboriosam. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Laboriosam veniam,
+          eveniet aliquid explicabo magnam consectetur architecto voluptas
+          ducimus fuga eos illum cupiditate, atque error voluptatum praesentium
+          aperiam nemo voluptates sit?
+        </p>
+      </div>
+      <div class="container">
+        <h2>Hello World</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+          quibusdam molestias consectetur repellendus tenetur ad atque. Iste
+          molestias beatae id, totam maxime laudantium, vero dolorum explicabo
+          facere dolores nostrum quas. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Odio ex inventore voluptatem tempore, beatae dolorem
+          velit saepe provident eius minus hic architecto commodi assumenda
+          quos. Voluptas necessitatibus recusandae nobis laboriosam. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Laboriosam veniam,
+          eveniet aliquid explicabo magnam consectetur architecto voluptas
+          ducimus fuga eos illum cupiditate, atque error voluptatum praesentium
+          aperiam nemo voluptates sit?
+        </p>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
